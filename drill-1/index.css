@@ -1,0 +1,43 @@
+.header{
+    color: white;
+    text-align: center;
+    background-color: gray;
+    height: 100px;
+    padding: 60px;
+    left: 0px;
+}
+.footer{ 
+    position: fixed;
+    color: rgb(39, 39, 39);
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    margin: 0 auto 0 auto;
+    left: 5px;
+    right: 5px; 
+    bottom: 0px;
+    width: 90%;
+    height: 100px;
+    
+}
+.leftsidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 10%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 0; /* Stay on top */
+    top: 228px; /* Stay at the top */
+    left: 8px;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  .rightsidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 10%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 0; /* Stay on top */
+    top: 228px; /* Stay at the top */
+    right: 8px;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
